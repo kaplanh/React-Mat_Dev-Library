@@ -6,10 +6,13 @@ const ThemeContext = createContext();
 
 const ThemeContextProvider = ({ children }) => {
   const [myTheme, setMyTheme] = useState("light");
+
+  // !stateleri asagidaki gibi bir degiskene atayarakta paslayabilirdim
     // const values = { myTheme, setMyTheme }
     //  <ThemeContext.Provider value={values}>
     //   {children}
-    // </ThemeContext.Provider>
+  // </ThemeContext.Provider>
+  
   return (
     <ThemeContext.Provider value={{ myTheme, setMyTheme }}>
       {children}
