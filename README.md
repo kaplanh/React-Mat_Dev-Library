@@ -121,9 +121,10 @@ Build a Mat_Dev Library using ReactJS.
 
 
 
-## Notes
+## SVG to React-Component
 
 - 
+- <a href="https://react-svgr.com/playground/" target="_blank">SVGR</a>
 
 
 
