@@ -2,6 +2,12 @@
 
 # MAT_DEV Library
 
+
+[Live Link](https://react-matdevlibrary.vercel.app/)
+
+
+<img src="./public/mat_dev styled components library.gif">
+
 ## Description
 
 Project aims to create a MAT_DEV Library.
@@ -75,9 +81,9 @@ Mat_Dev Library (folder)
 └── yarn.lock
 ```
 
-## Expected Outcome
 
-![Mat_Dev Library](clarus-library.gif)
+
+
 
 ## Objective
 
