@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/header/Header";
+
+import { CardContainer, HomeContainer, HomeImage } from "./Home.style";
+import homeImg from "../../assets/books.jpg";
+
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+    return (
+        <HomeContainer>
+            <Header />
 
-export default Home
+            <CardContainer wrap="wrap"></CardContainer>
+
+            <HomeImage>
+                <img src={homeImg} alt="Home" />
+            </HomeImage>
+        </HomeContainer>
+    );
+};
+
+export default Home;
