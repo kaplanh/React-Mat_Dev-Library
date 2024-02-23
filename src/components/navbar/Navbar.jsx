@@ -14,7 +14,7 @@ const Navbar = () => {
     };
     return (
         <Nav justify="space-between" wrap="wrap">
-            <Logo to="/">Clarus Library</Logo>
+            <Logo to="/">MAT_DEV Library</Logo>
             <HamburgerIcon onClick={() => setToggle(!toggle)}>
                 {menuIcon}
             </HamburgerIcon>
