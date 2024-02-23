@@ -17,7 +17,7 @@ const Header = () => {
         console.log(e.target);
         console.log(e.target.name);
         console.log({ [e.target.name]: e.target.value });
-        setSearchInfo({ ...searchInfo, [e.target.name]: e.target.value }); // inputun name attr ile statede ki key isimleri aynı olmak zorunda.
+        setSearchInfo({ ...searchInfo, [e.target.name]: e.target.value }); // inputun name atributeleri ile statede ki key isimleri aynı olmak zorunda.
     };
 
     const handleSubmit = (e) => {
@@ -25,7 +25,7 @@ const Header = () => {
         getData();
     };
 
-    console.log(searchInfo);
+    // console.log(searchInfo);
     return (
         <HeaderContainer>
             <HeaderTitle>BOOKS OR MAGAZINES</HeaderTitle>
